@@ -1,0 +1,9 @@
+LEI SECA PGE 1.0 — INSTALAÇÃO
+
+1. Publique TODOS os arquivos desta pasta juntos em um serviço de hospedagem estática HTTPS (por exemplo, GitHub Pages ou Netlify).
+2. Acesse a URL HTTPS pelo Chrome no Android.
+3. Menu do Chrome > Instalar aplicativo / Adicionar à tela inicial (conforme disponibilidade).
+4. Abra online uma vez para armazenar os arquivos de interface para uso offline.
+5. Exporte backups da biblioteca antes de substituir versões. IndexedDB pertence à origem (domínio), não ao arquivo HTML.
+
+IMPORTANTE: Abrir index.html diretamente como file:// NÃO instala um PWA. O texto legal embutido deriva da versão anterior; confira a vigência e a integridade das importações. O service worker guarda a interface, não sincroniza dados na nuvem.
